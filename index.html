@@ -3,42 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Src/style.css" />
-    <title>AI Poem Generator</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>AI French Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Poems Generator</h1>
+        <h1>AI French Poem Generator</h1>
       </header>
+
       <main>
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter the topic of the poem"
+            placeholder="Enter the topic of the French poem"
             autofocus
             required
             autocomplete="off"
             class="instructions"
           />
-          <input type="Submit" class="submit-button" />
+          <input type="submit" class="submit-button" />
         </form>
         <div class="poem" id="poem"></div>
       </main>
+
       <footer>
-        This Ai project was coded by
+        This AI project was coded by
         <a href="https://github.com/mahaelk1990" target="_blank">Maha</a> and is
         open-sourced on
         <a href="https://github.com/mahaelk1990/Poem-Generator" target="_blank">
-          Github
+          GitHub
         </a>
         and is hosted on
         <a href="https://generatorpoemai.netlify.app/" target="_blank"
-          >Netify</a
-        >
+          >Netlify</a
+        >.
       </footer>
     </div>
+
+    <script src="Src/index.js"></script>
   </body>
-  <script src="Src/index.js"></script>
-  <script src="https://unpkg.com/typewriter-effect@2.17.0/dist/core.js"></script>
 </html>
